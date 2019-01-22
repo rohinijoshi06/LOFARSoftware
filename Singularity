@@ -2,7 +2,7 @@ BootStrap: docker
 From: lofaruser/imaging-pipeline:latest
 
 %post
-  pip install shapely
+
 
 %runscript
   # For debugging purposes
